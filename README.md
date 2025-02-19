@@ -1,25 +1,26 @@
-# AFD & Compilator Regex
+# AFD & Regex Compiler
 
-Acest repository conține două componente principale:
-1. **Un automat finit determinist (AFD)** implementat în C++.
-2. **Un compilator pentru expresii regulate** implementat în C#.
+This repository contains two main components:
 
-## Automat Finit Determinist (AFD)
+1. **A Deterministic Finite Automaton (DFA)** implemented in C++.
+2. **A compiler for regular expressions** implemented in C#.
 
-Automatul finit determinist (AFD) este o implementare în C++ care permite verificarea dacă un șir de caractere este acceptat de un anumit automat determinist.
+## Deterministic Finite Automaton (DFA)
 
-### Caracteristici:
-- Implementat în C++.
-- Utilizează structuri de date eficiente pentru reprezentarea stărilor și tranzițiilor.
-- Permite citirea și definirea unui automat dintr-un fișier de configurare.
-- Suportă validarea unui șir pe baza automatului definit.
+The Deterministic Finite Automaton (DFA) is a C++ implementation that checks whether a given string is accepted by a specific deterministic automaton.
 
-## Compilator Regex (C#)
+### Features:
+- Implemented in **C++**.
+- Uses efficient data structures to represent states and transitions.
+- Allows reading and defining an automaton from a configuration file.
+- Supports string validation based on the defined automaton.
 
-Compilatorul de expresii regulate este o aplicație scrisă în C# care transformă un regex într-un automat finit echivalent.
+## Regex Compiler (C#)
 
-### Caracteristici:
-- Implementat în C# .NET.
-- Suportă expresii regulate standard.
-- Convertește regex-ul într-un automat finit echivalent.
-- Generează cod C++ pentru AFD-ul rezultat.
+The regular expression compiler is a **C#** application that converts a regex into an equivalent finite automaton.
+
+### Features:
+- Implemented in **C# .NET**.
+- Supports standard regular expressions.
+- Transforms a regex into an equivalent finite automaton.
+- Generates **C++** code for the resulting DFA.
